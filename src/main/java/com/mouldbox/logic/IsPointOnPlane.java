@@ -5,6 +5,7 @@ import com.mouldbox.vector.Vector3;
 public class IsPointOnPlane {
 
 	public static void main(String[] args) {
+		
 		Vector3 point = new Vector3(1,1,1);
 		Vector3 normal = new Vector3(3,4,3);
 		Vector3 testPoint = new Vector3(2,1,1);
