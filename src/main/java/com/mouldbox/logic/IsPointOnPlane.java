@@ -11,6 +11,14 @@ public class IsPointOnPlane {
 		
 		IsPointOnPlane runner = new IsPointOnPlane();
 		
+		// Should be false
+		System.out.println(runner.isOnPlane(point, normal, testPoint));
+		
+		point = new Vector3(1,1,1);
+		normal = new Vector3(3,4,3);
+		testPoint = new Vector3(1,1,1);
+		
+		// should be true
 		System.out.println(runner.isOnPlane(point, normal, testPoint));
 
 	}
